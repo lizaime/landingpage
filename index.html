@@ -1,150 +1,157 @@
 <!DOCTYPE html>
-<!-- Primeira linha obrigatória: informa ao navegador que é HTML5 -->
 <html lang="pt-br">
-<!-- lang define o idioma: importante para acessibilidade e SEO -->
 
 <head>
-    <!-- O head guarda configurações que NÃO aparecem na página -->
     <meta charset="UTF-8">
-    <!-- charset garante que acentos (ç, ã, é) apareçam corretamente -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- viewport: faz a página se adaptar ao celular (responsividade) -->
-    <title>GreenNest — Plantas para sua casa</title>
-    <!-- title: é o texto que aparece na ABA do navegador -->
+    <title>Ariana Grande</title>
     <link rel="stylesheet" href="estilo.css">
-    <!-- AQUI o HTML aponta para o arquivo de estilo separado -->
 </head>
 
 <body>
-    <!-- O body guarda TODO o conteúdo visível da página -->
-
-    <!-- ============ HEADER ============ -->
-    <!-- Cabeçalho: logo + menu de navegação -->
     <header>
-        <h1 class="logo">🌿 GreenNest</h1>
+        <h1 class="logo">AGrande</h1>
         <nav>
-            <!-- nav: agrupa os links de navegação do site -->
             <a href="#hero">Início</a>
-            <a href="#produtos">Plantas</a>
-            <a href="#depoimentos">Depoimentos</a>
-            <a href="#faq">Dúvidas</a>
+            <a href="#albuns">Albúns</a>
+            <a href="#Perfumes">Perfumes</a>
+            <a href="#faq">R.E.M. Beauty</a>
         </nav>
     </header>
 
-    <!-- ============ HERO SECTION ============ -->
-    <!-- A primeira impressão: o que aparece sem rolar a página -->
     <section id="hero" class="hero">
         <div class="hero-texto">
-            <h2>Traga a natureza para dentro de casa</h2>
-            <!-- h2 aqui, porque o h1 já foi usado no logo -->
-            <p>Plantas selecionadas para cada canto da sua casa.
-               Entrega rápida e garantia de vida por 30 dias.</p>
-            <!-- CTA: Call to Action — o botão que converte -->
-            <a href="#produtos" class="botao-cta">Ver plantas</a>
+            <h2>Ariana Grande!</h2>
+            <p>Álbuns e produtos para quem acompanha a artista</p>
+            <a href="#albuns" class="botao-cta">Ver Albúns</a>
         </div>
-        <img src="https://placehold.co/400x400/10B981/fff?text=🪴"
-             alt="Vaso de planta decorativa em ambiente interno">
-        <!-- alt é OBRIGATÓRIO: descreve a imagem para leitores de tela -->
+        <img src="https://www.rbsdirect.com.br/filestore/0/9/6/5/6/1/6_4df34f08adb187d/6165690_bbff15430842431.webp?format=webp&w=1280"
+             alt="Ariana Grande">
     </section>
 
-    <!-- ============ SHOWCASE DE PRODUTOS ============ -->
-    <!-- Vitrine: grid de cards com os produtos -->
-    <section id="produtos" class="produtos">
-        <h2>Nossas plantas</h2>
+    <section id="albuns" class="produtos">
+        <h2>Albúns disponíveis</h2>
         <ul class="grade-produtos">
-            <!-- ul + li: lista semântica para os cards -->
             <li class="card">
-                <img src="https://placehold.co/300x200/7C3AED/fff?text=Samambaia"
-                     alt="Samambaia em vaso suspenso">
-                <h3>Samambaia</h3>
-                <p>Perfeita para ambientes úmidos.</p>
-                <span class="preco">R$ 39,90</span>
+                <img src="https://i.scdn.co/image/ab67616d0000b2738baf677ee2d8dda6cc9fcbd7"
+                     alt="Capa do album petal">
+                <h3>Petal</h3>
+                <p> Cheio de vida crescendo pelas rachaduras de algo frio</p>
+                <span class="Data de lançamento"><i>31 de julho de 2026</i></span>
             </li>
             <li class="card">
-                <img src="https://placehold.co/300x200/00D4FF/000?text=Suculenta"
-                     alt="Suculenta em vaso pequeno de cerâmica">
-                <h3>Suculenta</h3>
-                <p>Pouca água, muita beleza.</p>
-                <span class="preco">R$ 19,90</span>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOPGzozxXLM-1JGfa1b-RAcv7VRlvJWSs7eqCxzgFpsA&s=10"
+                     alt="Capa do album eternal sunshine">
+                <h3>Eternal sunshine</h3>
+                <p> Funciona como um álbum conceitual leve, focado nos sentimentos da artista.</p>
+                <span class="Data de lançamento"><i>8 de março de 2024</i></span>
             </li>
             <li class="card">
-                <img src="https://placehold.co/300x200/EC4899/fff?text=Costela"
-                     alt="Costela de adão em vaso branco">
-                <h3>Costela de Adão</h3>
-                <p>A queridinha das decorações.</p>
-                <span class="preco">R$ 59,90</span>
+                <img src="https://i.scdn.co/image/ab67616d0000b27355b8f4c3458e256eca14f18f"
+                     alt="Capa do album Positions">
+                <h3>Positions</h3>
+                <p>Foca em temas de intimidade, devoção romântica e maturidade emocional</p>
+                <span class="Data de lançamento"><i>30 de outubro de 2020</i></span>
             </li>
             <li class="card">
-                <img src="https://placehold.co/300x200/10B981/fff?text=Jiboia"
-                     alt="Jiboia pendurada em suporte de parede">
-                <h3>Jiboia</h3>
-                <p>Cresce até em cantos escuros.</p>
-                <span class="preco">R$ 29,90</span>
+                <img src="https://i.scdn.co/image/ab67616d0000b27356ac7b86e090f307e218e9c8"
+                     alt="Capa do album Thank u, next">
+                <h3>Thank u, next</h3>
+                <p> Foi criado em um momento de intensos desafios pessoais para a artista.</p>
+                <span class="Data de lançamento"><i>8 de fevereiro de 2019</i> </span>
+            </li>
+            <li class="card">
+                <img src="https://i.scdn.co/image/ab67616d0000b273c3af0c2355c24ed7023cd394"
+                     alt="Capa do album Sweetener">
+                <h3>Sweetener</h3>
+                <p> Carrega a mensagem de transformar uma situação ruim ou amarga em algo doce e positivo.</p>
+                <span class="Data de lançamento"><i>17 de agosto de 2018</i> </span>
+            </li>
+            <li class="card">
+                <img src="https://i.scdn.co/image/ab67616d0000b27333342c57a9b2c4e04c97b3f5"
+                     alt="Capa do album Dangerous Woman">
+                <h3>Dangerous Woman</h3>
+                <p> Empoderamento feminino, autonomia, sensualidade e confiança</p>
+                <span class="Data de lançamento"><i>20 de maio de 2016</i> </span>
+            </li>
+            <li class="card">
+                <img src="https://m.media-amazon.com/images/I/617jETKyv7L.jpg"
+                     alt="Capa do album My Everything ">
+                <h3>My Everything </h3>
+                <p> Arrependimento, saudade e o valor de um relacionamento que só é percebido após o fim</p>
+                <span class="Data de lançamento"><i>22 de agosto de 2014</i> </span>
+            </li>
+            <li class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHaDWRYkt0c0dB4kmQE9VKXHlRu7oUMCDNasSvHDropQ&s=10"
+                     alt="Capa do album Yours Truly ">
+                <h3>Yours Truly </h3>
+                <p>Romance juvenil, desilusões amorosas e amadurecimento emocional.</p>
+                <span class="Data de lançamento"><i>3 de setembro de 2013</i> </span>
             </li>
         </ul>
     </section>
 
-    <!-- ============ PROVA SOCIAL ============ -->
-    <!-- Depoimentos: pessoas confiam em pessoas -->
-    <section id="depoimentos" class="depoimentos">
-        <h2>Quem comprou, recomenda</h2>
-        <div class="grade-depoimentos">
-            <figure class="depoimento">
-                <!-- figure: marca um conteúdo ilustrativo independente -->
-                <img src="https://placehold.co/80x80/7C3AED/fff?text=A"
-                     alt="Foto de perfil da cliente Ana">
-                <blockquote>"Minha casa ficou outro clima!"</blockquote>
-                <figcaption>Ana, Chapecó</figcaption>
-                <!-- figcaption: legenda da figure -->
-            </figure>
-            <figure class="depoimento">
-                <img src="https://placehold.co/80x80/00D4FF/000?text=B"
-                     alt="Foto de perfil do cliente Bruno">
-                <blockquote>"Chegou super bem embalada."</blockquote>
-                <figcaption>Bruno, Xaxim</figcaption>
-            </figure>
-            <figure class="depoimento">
-                <img src="https://placehold.co/80x80/10B981/fff?text=C"
-                     alt="Foto de perfil da cliente Carla">
-                <blockquote>"Atendimento nota 10!"</blockquote>
-                <figcaption>Carla, Chapecó</figcaption>
-            </figure>
+    <section id="Perfumes" class="secao-perfumes">
+        <h2>Perfumes</h2>
+        <div class="grade-perfumes">
+            <figure class="card">
+    <img src="https://i.pinimg.com/1200x/96/76/5b/96765b320a4c409065a6823e0fb0a79b.jpg"
+         alt="O God is a Woman, da Ariana Grande">
+    <figcaption>
+        <h3>God is a Woman</h3>
+        <p>O God is a Woman é um perfume floral frutado, leve e vegano, que combina o frescor da pera com a doçura suave da baunilha.</p>
+    </figcaption>
+</figure>
+                <figure class="card">
+    <img src="https://mmx.prnewswire.com/media/2183349/Ariana_Grande_Fragrance_Cloud_Pink.jpg"
+         alt=" Cloud Pink, , da Ariana Grande">
+    <figcaption>
+        <h3> Cloud Pink </h3>
+        <p> Perfume doce e frutado com notas de pitaia, coco e pralinê em um icônico frasco de nuvem rosa..</p>
+    </figcaption>
+</figure>
+                <figure class="card">
+    <img src="https://www.giraofertas.com.br/wp-content/uploads/2024/05/Thank-U-Next-Ariana-Grande-Eau-de-Parfum-Feminino-05.jpg"
+         alt="O Thank U, Next, da Ariana Grande">
+    <figcaption>
+        <h3> Thank U, Next</h3>
+        <p> O Thank U, Next é um perfume floral frutado gourmet com aroma doce e cremoso de coco e macarons de açúcar.</p>
+    </figcaption>
+</figure>
         </div>
     </section>
 
-    <!-- ============ FAQ ============ -->
-    <!-- Acordeão NATIVO: details + summary, sem JavaScript! -->
     <section id="faq" class="faq">
-        <h2>Dúvidas frequentes</h2>
+        <h2>R.E.M. Beauty</h2>
 
         <details>
-            <summary>Vocês entregam em toda a cidade?</summary>
-            <p>Sim! Entregamos em Chapecó e região em até 2 dias úteis.</p>
+            <summary>The Prima Palette</summary>
+            <img src="https://image-cdn.hypb.st/https%3A%2F%2Fbae.hypebeast.com%2Ffiles%2F2026%2F09%2F30%2Fr.e.m.6.jpg?q=90&w=800&cbr=1&fit=max">
+            <p>Paleta de sombras de edição limitada com seis tons neutros e rosados inspirados no balé, variando entre acabamentos matte e cintilantes de alta pigmentação.</p>
+        </details>
+
+
+        <details>
+            <summary>Sweet Dreams Eyeshadow Quad</summary>
+            <img src="https://cdn.dooca.store/166066/products/imgi-5-2652689-alt04_640x640+fill_ffffff.png?v=1770253211&webp=0">
+            <p>Quarteto de sombras vegano e pigmentado com acabamentos matte e cintilantes de fácil aplicação.</p>
         </details>
 
         <details>
-            <summary>E se a planta morrer?</summary>
-            <p>Temos 30 dias de garantia de vida. Trocamos sem custo.</p>
-        </details>
-
-        <details>
-            <summary>Como escolho a planta ideal?</summary>
-            <p>Chame no WhatsApp: indicamos conforme a luz do seu ambiente.</p>
+            <summary>Dangerous Woman Lip Mask </summary>
+            <img src="https://image-cdn.hypb.st/https%3A%2F%2Fbae.hypebeast.com%2Ffiles%2F2026%2F05%2F05%2Frem-1.jpg?q=90&w=800&cbr=1&fit=max">
+            <p>Esta máscara labial de ácido lático e peptídeos renova e nutre os lábios com um aplicador de metal e pingente de coelhinha.</p>
         </details>
     </section>
 
-    <!-- ============ FOOTER + NEWSLETTER ============ -->
-    <!-- Rodapé: fecha a navegação com formulário de e-mail -->
     <footer>
         <form class="newsletter">
-            <label for="email">Receba dicas de cuidado com plantas:</label>
-            <!-- label com for ligado ao id do input: acessibilidade -->
+            <label for="email">Receba novidades sobre a Ariana Grande:</label>
             <input type="email" id="email" name="email"
                    placeholder="seu@email.com" required>
-            <!-- type="email" valida o formato sozinho no navegador -->
             <button type="submit">Cadastrar</button>
         </form>
-        <p class="copyright">© 2026 — GreenNest • Desenvolvido pela turma de Web Design</p>
+        <p class="copyright">© 2026 — Ariana Grande • Desenvolvido pela turma de Web Design</p>
     </footer>
 
 </body>
